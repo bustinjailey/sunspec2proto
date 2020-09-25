@@ -1,53 +1,34 @@
-import xml.etree.ElementTree as ET
-import sys
-
-def lookup_data_type(data_type):
-
- data_types = {
-    "uint16": "uint32",
-    "int16" : "int32"
-    } 
-
- if data_type in data_types:
-    return data_types[data_type]
- else:
-    return data_type
+import sys, json
+from base64 import b64decode
+from zlib import decompress
+from lib.deserializer import payload_parser
 
 
+def parse_p_strings(p_strings):
+  for p_string in p_strings:
+    suns_dict = payload_parser.payload_to_json(p_string)
+    print("P-String Payloads \r\n {} \r\n".format(json.dumps(suns_dict, indent=1)))
 
-def main():
-  with open(sys.argv[1], 'rt') as f:
-      tree = ET.parse(f)
-      root = tree.getroot()
 
-  for num, element in enumerate(root.findall('model/block/point')):
-      #print("#units = {}".format(element.get("units")))
-      item = element.get("id")
-      item_type = lookup_data_type( element.get("type") )
-      label = root.find(''.join(['strings/point[@id="',item,'"]/label']))
-      description = root.find(''.join(['strings/point[@id="',item,'"]/description']))
-      notes = root.find(''.join(['strings/point[@id="',item,'"]/notes']))
+def extract_payload(payload):
+    zipped = b64decode(payload['z'])
+    payload_bytes = decompress(zipped)
+    payload = json.loads(payload_bytes)
 
-      comment = ["// "]
-
-      if(label is not None):
-        if(label.text is not None):
-          comment.append(label.text)
-      if(description is not None):
-        if(description.text is not None):
-          comment.append(" - ")
-          comment.append(description.text)
-      if(notes is not None):
-        if(notes.text is not None):
-          comment.append(" - ")
-          comment.append(notes.text)
-
-      print("".join(comment))
-      print("optional {} {} = {};".format(item_type, item, num+1))
-
-      for num, symbol in enumerate(element.findall('symbol')):
-        print("{} = {};".format(symbol.get("id"), symbol.text))
+    beacon_rcpn = payload['b']
+    hosts = payload['h']
+    # this is an inverter if len(hosts) > 0
+    host_rcpn = hosts[0] if len(hosts) > 0 else None
+    devices = payload['u']
+    return beacon_rcpn, host_rcpn, devices
 
 if __name__ == "__main__":
-  main()
-    
+    with open(sys.argv[1], 'rt') as json_file:
+        payload = json.load(json_file)
+        output = extract_payload(payload)
+        print("Sunspec Payload \r\n\r\n {} \r\n".format(json.dumps(output, indent=1)))
+        
+        for p_string in output[2]:
+          parse_p_strings(p_string['p'])
+
+       
