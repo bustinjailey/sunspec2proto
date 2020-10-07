@@ -10,4 +10,11 @@ A tool that takes in sunspec xml files and converts them to proto fields. It wil
 
 
 ## Usage ( Python 3.7 )
-`python sunspec_parser.py smdx_00001.xml`
+
+Sunspec to Proto ( type fields only )
+`python sunspec_to_proto.py smdx_00804.xml`
+
+
+Sunspec Payload Decoder
+`python sunspec_parser.py payloads/common_model.json`
+`python sunspec_parser.py payloads/site_energy.json`
