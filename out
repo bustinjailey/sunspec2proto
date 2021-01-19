@@ -1,0 +1,378 @@
+Sunspec Payload 
+
+ [
+ "0001001200C1",
+ "00010007179D",
+ [
+  {
+   "p": [
+    "eJyLz5Pd8+svA5OCAIsfg1TsDIVg/mBGSaY4Fj/mpyxBDKwMDCq/FWLY77HfY2AEko+kj9hdYd3JfkeVEQDhCxEB"
+   ],
+   "d": "000100031793"
+  },
+  {
+   "p": [
+    "eJyLz5Pd9esvA5OCAOsCBtlvcQrB/EGM+UxurAuYP7FOYgABQQYGRlOJbgYUoMYOAL01Crg="
+   ],
+   "d": "000100031768"
+  },
+  {
+   "p": [
+    "eJyLz5Pd++svA5MCAxQwgol2BgaWYAZm3+AgR90QXy8GX5gMAgAAKL0HPQ=="
+   ],
+   "d": "0001001200C1"
+  },
+  {
+   "p": [
+    "eJyLz5Pd+esvA5OCAOtyBlVvO4Vg/kDGAqZY1uXM/1g7GVgZGAxqtHK5BLhEGJi4RLgEpR8G9LFKc4kY9AEAxYUNlg=="
+   ],
+   "d": "0001000316E8"
+  },
+  {
+   "p": [
+    "eJyLz5Pd++svAxOHgpgVQ/2kdgV2/qBfYUxqnGdEw4QfM7AxMPc8Z/DaFMlQ8DtPd77rXAYGAYa04AkMDAwAKk4RmA=="
+   ],
+   "d": "00010007179D"
+  },
+  {
+   "p": [
+    "eJyLz5Pd/esvA5OCAPM5BsmPdQrB/AEMP5nYmc8xsbAnM4CAEhBrSnQzoAA1dgC4XwpY"
+   ],
+   "d": "000100031710"
+  },
+  {
+   "p": [
+    "eJyLz5Pd++svA5OCAPMtBomNCgrB/AEMv5n4mW8xsbBXMoCABhD3SnQzoAA1dgCtbApd"
+   ],
+   "d": "00010003168E"
+  },
+  {
+   "p": [
+    "eJyLz5Pd8+svA5MCAyq4uY+BocGKgUm8o25rSnnZGxWXun1fNjAwKB9gYGXgZmBw/QIAqvgPlg=="
+   ],
+   "d": "0001000009AC"
+  },
+  {
+   "p": [
+    "eJyLz5Pd+esvAxMzAxDw+8sosPMHAllrGBi4D5jwggSZDRgY2IX5vvPrAEVPgEQYeItaOVkBWKIKbA=="
+   ],
+   "d": "0001000806DA"
+  }
+ ]
+] 
+
+P-String Payloads 
+ {
+ "created_at": "2020-09-25 16:41:32 UTC",
+ "model_name": "legacy_status",
+ "model_id": 64253,
+ "update": {
+  "fixed": {
+   "St": 8208,
+   "P": 1102,
+   "E": 1727896,
+   "Rb": 8275,
+   "V": 3923,
+   "I": 281,
+   "T": 606,
+   "O0": 1102,
+   "O1": 997,
+   "O2": 1106,
+   "O3": 5,
+   "O4": 0,
+   "O5": 9467,
+   "O6": 8284,
+   "O7": 2014,
+   "O8": 2014,
+   "O9": 1,
+   "OA": 2014,
+   "OB": 2018,
+   "OC": 7108,
+   "OD": 16084,
+   "OE": 1465,
+   "OF": 2012,
+   "OG": 9473
+  }
+ }
+} 
+
+P-String Payloads 
+ {
+ "created_at": "2020-09-25 16:41:30 UTC",
+ "model_name": "legacy_status",
+ "model_id": 64253,
+ "update": {
+  "fixed": {
+   "St": 8208,
+   "P": 1440,
+   "E": 1963614,
+   "Rb": 8275,
+   "V": 3922,
+   "I": 367,
+   "T": 582,
+   "O0": 1440,
+   "O1": 1010,
+   "O2": 1426,
+   "O3": 0,
+   "O4": 0,
+   "O5": 17,
+   "O6": 0,
+   "O7": 309,
+   "O8": 6283,
+   "O9": 0,
+   "OA": 0,
+   "OB": 0,
+   "OC": 0,
+   "OD": 0,
+   "OE": 0,
+   "OF": 0,
+   "OG": 9735
+  }
+ }
+} 
+
+P-String Payloads 
+ {
+ "created_at": "2020-09-25 16:41:33 UTC",
+ "model_name": "legacy_status",
+ "model_id": 64253,
+ "update": {
+  "fixed": {
+   "St": 8192,
+   "P": 0,
+   "E": 0,
+   "Rb": 1,
+   "V": 0,
+   "I": 0,
+   "T": 391,
+   "O0": 0,
+   "O1": 1107,
+   "O2": 3,
+   "O3": 19795,
+   "O4": 21057,
+   "O5": 11604,
+   "O6": 19786,
+   "O7": 77,
+   "O8": 0,
+   "O9": 1,
+   "OA": 0,
+   "OB": 0,
+   "OC": 0,
+   "OD": 0,
+   "OE": 0,
+   "OF": 0,
+   "OG": 0
+  }
+ }
+} 
+
+P-String Payloads 
+ {
+ "created_at": "2020-09-25 16:41:29 UTC",
+ "model_name": "legacy_status",
+ "model_id": 64253,
+ "update": {
+  "fixed": {
+   "St": 8208,
+   "P": 1447,
+   "E": 2444094,
+   "Rb": 8275,
+   "V": 3921,
+   "I": 368,
+   "T": 605,
+   "O0": 1447,
+   "O1": 1022,
+   "O2": 1417,
+   "O3": 5,
+   "O4": 0,
+   "O5": 12412,
+   "O6": 10861,
+   "O7": 2576,
+   "O8": 2580,
+   "O9": 2,
+   "OA": 2580,
+   "OB": 2577,
+   "OC": 7137,
+   "OD": 20622,
+   "OE": 1307,
+   "OF": 2580,
+   "OG": 12430
+  }
+ }
+} 
+
+P-String Payloads 
+ {
+ "created_at": "2020-09-25 16:41:33 UTC",
+ "model_name": "legacy_status",
+ "model_id": 64253,
+ "update": {
+  "fixed": {
+   "St": 2080,
+   "P": 5690,
+   "E": 8360583,
+   "Rb": 8199,
+   "V": 3922,
+   "I": -1450,
+   "T": 550,
+   "O0": 2508,
+   "O1": 5462,
+   "O2": 5091,
+   "O3": 6,
+   "O4": 3,
+   "O5": 36071,
+   "O6": 74,
+   "O7": 45657,
+   "O8": 112,
+   "O9": 64366,
+   "OA": 11679,
+   "OB": 17821,
+   "OC": 0,
+   "OD": 4096,
+   "OE": 26195,
+   "OF": 36864,
+   "OG": 0
+  }
+ }
+} 
+
+P-String Payloads 
+ {
+ "created_at": "2020-09-25 16:41:31 UTC",
+ "model_name": "legacy_status",
+ "model_id": 64253,
+ "update": {
+  "fixed": {
+   "St": 8208,
+   "P": 974,
+   "E": 1700222,
+   "Rb": 8275,
+   "V": 3920,
+   "I": 249,
+   "T": 519,
+   "O0": 974,
+   "O1": 516,
+   "O2": 1891,
+   "O3": 0,
+   "O4": 0,
+   "O5": 34,
+   "O6": 0,
+   "O7": 41,
+   "O8": 6283,
+   "O9": 0,
+   "OA": 0,
+   "OB": 0,
+   "OC": 0,
+   "OD": 0,
+   "OE": 0,
+   "OF": 0,
+   "OG": 9735
+  }
+ }
+} 
+
+P-String Payloads 
+ {
+ "created_at": "2020-09-25 16:41:33 UTC",
+ "model_name": "legacy_status",
+ "model_id": 64253,
+ "update": {
+  "fixed": {
+   "St": 8208,
+   "P": 986,
+   "E": 1618208,
+   "Rb": 8275,
+   "V": 3920,
+   "I": 251,
+   "T": 527,
+   "O0": 986,
+   "O1": 516,
+   "O2": 1913,
+   "O3": 0,
+   "O4": 0,
+   "O5": 40,
+   "O6": 0,
+   "O7": 141,
+   "O8": 6283,
+   "O9": 0,
+   "OA": 0,
+   "OB": 0,
+   "OC": 0,
+   "OD": 0,
+   "OE": 0,
+   "OF": 0,
+   "OG": 9735
+  }
+ }
+} 
+
+P-String Payloads 
+ {
+ "created_at": "2020-09-25 16:41:32 UTC",
+ "model_name": "legacy_status",
+ "model_id": 64253,
+ "update": {
+  "fixed": {
+   "St": 8192,
+   "P": 0,
+   "E": 0,
+   "Rb": 0,
+   "V": 0,
+   "I": 0,
+   "T": 0,
+   "O0": 55742,
+   "O1": 0,
+   "O2": 32826,
+   "O3": 2,
+   "O4": 6024,
+   "O5": 32437,
+   "O6": 25719,
+   "O7": 30444,
+   "O8": 9284,
+   "O9": 32446,
+   "OA": 62640,
+   "OB": 0,
+   "OC": 9152,
+   "OD": 5,
+   "OE": 11,
+   "OF": 0,
+   "OG": 17908
+  }
+ }
+} 
+
+P-String Payloads 
+ {
+ "created_at": "2020-09-25 16:41:29 UTC",
+ "model_name": "legacy_status",
+ "model_id": 64253,
+ "update": {
+  "fixed": {
+   "St": 768,
+   "P": 0,
+   "E": 1003292,
+   "Rb": 8199,
+   "V": 3921,
+   "I": 0,
+   "T": 172,
+   "O0": 0,
+   "O1": 3008,
+   "O2": 13325,
+   "O3": 0,
+   "O4": 0,
+   "O5": 816,
+   "O6": 0,
+   "O7": 1811,
+   "O8": 3831,
+   "O9": 3884,
+   "OA": 172,
+   "OB": 200,
+   "OC": 0,
+   "OD": 0,
+   "OE": 13,
+   "OF": 29317,
+   "OG": 2309
+  }
+ }
+} 
+
