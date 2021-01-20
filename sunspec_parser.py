@@ -29,6 +29,7 @@ if __name__ == "__main__":
         print("Sunspec Payload \r\n\r\n {} \r\n".format(json.dumps(output, indent=1)))
         
         for p_string in output[2]:
+          print("Device RCPN", p_string["d"])
           parse_p_strings(p_string['p'])
 
        
