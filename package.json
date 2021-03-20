@@ -1,0 +1,11 @@
+{
+  "name": "sunspec2proto-node",
+  "version": "0.9.0",
+  "description": "Converts Sunspec-format models (smdx) to Protobuf message objects",
+  "author": "Justin Bailey",
+  "license": "ISC",
+  "dependencies": {
+    "xslt3": "^2.1.0"
+  },
+  "type": "module"
+}

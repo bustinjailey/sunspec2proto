@@ -1,1 +1,0 @@
-# clone from https://bitbucket.org/pikaen/beacon_tools/src/226a46f1ce3bc33ad1b260cb631142dede1974be/lib/payload_parser.py
