@@ -12,8 +12,8 @@
     <xsl:function name="fn:toProtobufType">
         <xsl:param name="sunspecType"/>
         <xsl:choose>
-            <xsl:when test="$sunspecType = 'sunssf'">replaceme</xsl:when>
-            <xsl:when test="$sunspecType = 'bitfield16'">map&lt;string, bool&gt;</xsl:when>
+            <xsl:when test="$sunspecType = 'sunssf'">int32</xsl:when>
+            <xsl:when test="$sunspecType = 'bitfield16'">map&lt;string, bool&gt;</xsl:when><!-- This map approach feels clunky, should explore expanding bitfields to individual boolean flags instead -->
             <xsl:otherwise><xsl:value-of select="$sunspecType"/></xsl:otherwise>
         </xsl:choose>
     </xsl:function>
